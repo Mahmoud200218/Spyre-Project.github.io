@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 10%;
+}
+
+.team{
+    background-image: url(/img/team\ 1.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Mills */
+.mills{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.mills-left{
+display: flex;
+}
+
+.mills-left img{
+    width: 300px;
+    height: 60vh;
+}
+
+.left-box{
+    position: relative;
+    width: 300px;
+    height: 80vh;
+    background-color: #1f2749;
+    margin-top: 100px;
+    padding: 60px 60px;
+}
+
+
+.left-box{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#par2{
+    padding: 30px 0;
+    line-height: 1.3rem;
+}
+
+#par1{
+    line-height: 1.3rem;
+}
+.mills-right{
+    margin: 20% 0 0 9.5%;
+}
+.mills-right p{
+font-size: 30px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 2.7rem;
+word-spacing: 0.2rem;
+color: rgb(85, 81, 81);
+}
+
+.icon{
+    margin-left: -10px;
+    color: rgb(85, 81, 81);
+    font-size: 20px;
+}
+
+
+/*Together*/
+.together{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+}
+
+.together-listOne{
+display: flex;
+justify-content: space-between;
+}
+
+.together-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.together-title h2{
+    color: #1f2749;
+}
+
+.together-title h1{
+    color: #f12639;
+}
+
+.together-box{
+    width: 24%;
+    height: 60vh;
+    background-color: none;
+    border: 1px solid gray;
+}
+
+.together-box img{
+    width: 90%;
+    height: 50%;
+    margin-top: -25px;
+}
+
+
+.box-title{
+    margin-top: 20px;
+    padding: 12px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-title h4{
+    color: rgb(29, 28, 28);
+}
+.together-box p{
+    line-height: 1.5rem;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

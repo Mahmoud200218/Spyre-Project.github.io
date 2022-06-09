@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 10%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    background-image: url(/img/services\ 1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.boxes{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-boxes{
+    width: 32%;
+    height: 63%;
+    border: 1px solid rgb(187, 186, 186);
+    padding: 15px;
+}
+
+.box-boxes h2{
+    padding: 18px 0;
+    color:#f12639!important ;
+}
+
+.box-boxes p{
+    line-height: 1.3rem;
+    font-size: 15px;
+}
+
+
+#btn{
+    width: 270px;
+    height: 60px;
+    border: 0;
+    background-color: #f12639!important;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 35%;
+    margin-bottom: 150px;
+    margin-top: 70px;
+}
+
+.planning{
+    background-color: #f3f8fc!important;
+    position: relative;
+width: 100%;
+height: 82vh;
+display: flex;
+}
+
+
+.plan-left img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.plan-right{
+    position: absolute;
+    width: 50%;
+    right: 0%;
+    padding: 150px 0 150px 120px;
+}
+
+.plan-right .plan-title{
+padding: 20px 0;
+}
+
+.plan-title h2{
+    color: #f12639;
+}
+
+.plan-title h3{
+    color:  #1f2749!important;
+}
+
+.plan-right p{
+    max-width: 72%;
+    line-height: 1.4rem;
+}

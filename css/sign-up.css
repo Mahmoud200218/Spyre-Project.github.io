@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sign-up{
+    position: relative;
+    display: flex;
+}
+
+.spyre-header-content img{
+    position: absolute;
+    height: 130px;
+    left: 13%;
+}
+
+.sign-up-left{
+    width: 50%;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+.sign-up-left img{
+    width: 100%;
+    height: 120vh;
+}
+
+.sign-up-right{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+
+.sign-up-right-title{
+    position: absolute;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 8%;
+    left: 15%;
+}
+
+.sign-up-right-title h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sign-up-right-title p{
+    font-size: 22px;
+    color: gray;
+    
+}
+.sign-up-right-inputs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-38%);
+    margin-top: 20px;
+}
+.sign-up-right-inputs input{
+    width: 450px;
+    height: 65px;
+    outline: none;
+    padding: 18px;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+
+.sign-up-right-inputs button{
+    width: 450px;
+    height: 65px;
+    outline: none;
+    border: 0;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color:rgba(16, 5, 73, 0.863) ;
+}
+
+.sign-up-right-inputs button:hover{
+    opacity: 0.9;
+}
+.sign-up-right-inputs h3{
+text-align: center;
+padding-top: 25px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: gray;
+font-size: 18px;
+}
+
+.sign-up-right-inputs h3 a{
+color: rgb(255, 30, 30);
+text-decoration: none;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons-social{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 59%;
+    bottom: 8%;
+    
+}
+
+.buttons-social button{
+    width: 210px;
+    height: 50px;
+    border: 0;
+    outline: none;
+}
+
+.buttons-social #btn1{
+    background-color: #3b5998;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.buttons-social #btn1:hover{
+    opacity: 0.9;
+}
+
+.buttons-social #btn2{
+    background-color: 	#1DA1F2;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.buttons-social #btn2:hover{
+    opacity: 0.9;
+}
+
+.buttons-social i{
+    padding-right: 8px;
+}
+
+.input-between{
+    display: flex;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input-between .span {
+    padding: 43px 200px 0 0 ;
+}
+.input-between input{
+    width: 15px;
+}
+
+.input-between a{
+    padding: 43px 0 0 0 ;
+    color: rgb(255, 30, 30);
+}

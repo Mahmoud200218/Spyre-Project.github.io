@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 10%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Read*/
+.read{
+    width: 85%;
+    height: 455vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.read-right{
+    width: 65%;
+    
+}
+
+.read-list{
+    margin-bottom: 120px;
+
+}
+
+.read-right h2{
+    margin-bottom: 25px;
+}
+
+.read-right p{
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.8rem;
+     color: rgb(59, 58, 58);
+     margin-bottom: 25px;
+
+}
+
+
+.read-img img{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+.read-img {
+    display: flex;
+}
+.read-img p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#id{
+    margin-top: -35px;
+}
+
+.read-content{
+    position: relative;
+}
+.read-content #read{
+   position: absolute;
+   left: 70%;
+}
+
+#read{
+    font-size: 17px;
+   text-decoration: none;
+   color: #f12639;
+   font-weight: bold;
+   margin-top: -60px;
+}
+
+/* Next */
+
+.next{
+    
+    margin-bottom: 30px;
+}
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+}
+
+.list li button{
+    width: 35px;
+    height: 40px;
+    border: .2px solid rgb(190, 187, 187);
+}
+
+.hov:hover{
+background-color: rgb(230, 225, 225);
+}
+
+
+/* Left*/
+
+.read-left{
+    width: 20%;
+    margin-top: -100px;
+}
+
+.list-one-left{
+    margin: 100px 0;
+}
+.list-one-left h2{
+    color: rgb(61, 60, 60);
+}
+.list-one-left ul{
+display: flex;
+justify-content: space-between;
+margin: 30px 0 0 0;
+list-style: none;
+}
+
+.list-one-left ul li button{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+    color: rgb(100, 100, 100);
+}
+
+.list-two-left{
+    max-width: 20%;
+}
+.list-two-left ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav{
+    margin-bottom: 40px;
+}
+.list-two-left ul nav li button{
+    height: 30px;
+    margin: 5px 10px;
+    border: 0;
+    padding: 10px 25px;
+    margin: 5px 5px;
+} 
+
+
+.list-two-left h2{
+    color: rgb(61, 60, 60);
+    margin-bottom: 30px;
+}
+
+.list-three-left{
+    margin-top: 150px;
+}
+.list-three-left h2{
+    color: rgb(61, 60, 60);
+    margin-bottom: 30px;
+}
+
+.list-three-left ul{
+    margin-left: 25px;
+}
+.list-three-left ul li{
+    padding: 7px 0;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}

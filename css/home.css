@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb {
+    margin-bottom: 10%;
+}
+
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-left {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    padding: 200px 80px 100px 140px;
+}
+
+.home-left h1 {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+.home-left #span {
+    font-size: 50px;
+    color: #f12639;
+}
+
+#span{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.home-left p {
+    font-size: 18px;
+    padding: 0 30px 40px 0;
+    line-height: 1.8rem;
+}
+
+.home-left button {
+    width: 220px;
+    height: 60px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-right {
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    background-color: #1f2749;
+    right: 0;
+}
+
+.home-right img {
+    width: 100%;
+    height: 80vh;
+    margin: 131px 0px 0 0;
+    margin-left: -70px;
+}
+
+
+/* Core*/
+.core {
+    position: relative;
+    margin-bottom: 55%;
+}
+
+.core-left {
+    position: absolute;
+    width: 50%;
+    height: 88vh;
+    background-image: url(/img/home\ 2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.core-left-content {
+    background-color: rgba(255, 0, 0, 0.644);
+    padding: 150px 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.core-left-title h1{
+    color: #fff;
+}
+.core-left-title h3{
+    color: #1f2749;
+}
+.core-left-content p{
+    max-width: 75%;
+    padding-top: 30px;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+/*core right*/
+.core-right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 88vh;
+    padding: 150px 0px 0 220px;
+}
+
+.core-right h2{
+    padding-bottom: 30px;
+}
+
+.list{
+list-style: none;
+padding-bottom: 50px;
+}
+
+.list li{
+    padding: 7px 0;
+    font-size: 19px;
+}
+
+.span-color{
+ padding: 0 8px 0 0; 
+ color: #f12639;  
+ font-size: 22px;
+}
+
+#par a{
+    color: #f12639;  
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+/*video*/
+.video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+
+/*slider*/ 
+
+
+ .slider{
+     background-color: #f3f8fc!important;
+     width: 100%;
+     height: 70vh;
+     margin-top: 200px;
+ }
+  .container {
+      position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%,50%);
+  }
+ 
+  .slides-container {
+    height: 400px;
+    transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+    position: relative;
+    margin-top: 40px;
+  }
+ 
+  .slide-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+ 
+  .slide-image img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 50px 0 0 220px;
+  }
+
+  .slide-image p{
+      position: absolute;
+      top: 100px;
+      width: 85%;
+      padding-left:  420px;
+      line-height: 1.8rem;
+      font-size: 18px;
+  }
+ 
+  .next-btn,
+  .prev-btn {
+    background: #eee;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+  }
+ 
+  .next-btn:hover,
+  .prev-btn:hover {
+    background: gray;
+    color: #fff;
+  }
+ 
+  .prev-btn {
+    left: 0;
+   
+   
+  }
+  .next-btn {
+    right: 0;
+  }
+ 
+ 
+  /* Navigation Dots */
+ 
+  .navigation-dots {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+  }
+ 
+  .single-dot {
+    background: #fff;
+    height: 4px;
+    width: 50px;
+    border: 1px solid #000;
+ 
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+ 
+  .single-dot.active {
+    background: #000;
+  }
+
+  .footer-slide{
+      position: absolute;
+      bottom: 100px;
+      right: 100px;
+  }
+
+  .footer-slide h3{
+      color: #f12639;
+  }
+
+ .footer-slide h4{
+     color: #1f2749;
+ }
+

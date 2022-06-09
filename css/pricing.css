@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 10%;
+}
+
+.mt{
+    margin-top: 10%;
+}
+.pricing{
+    background-image: url(/img/pricing\ 1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Popular */
+.popular{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one{
+    text-align: center;
+    width: 31%;
+    height: 94vh;
+    border: 1px solid rgb(214, 209, 209);
+}
+
+.box-title{
+margin: 70px 0 40px 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.box-title h2{
+    color: rgb(99, 96, 96);
+}
+
+.box-title a{
+    text-decoration: none;
+    color: #000;
+}
+
+.box-title p{
+    color: #f12639!important;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.nav li{
+list-style: none;
+padding: 6px 0;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-one button{
+width: 230px;
+height: 50px;
+border: 0;
+margin: 40px 0 0 0;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+color: #fff;
+background-color: #f12639!important;
+}
+
+
+.box-one #par{
+    padding: 30px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*About */
+.about{
+    width: 65%;
+    height: 100vh;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-title{
+    text-align: center;
+}
+
+.about-title h2{
+    color:#f12639!important ;
+}
+
+.about-title h1{
+    color: #1f2749!important;;
+}
+
+.list-one{
+display: flex;
+justify-content: space-between;
+margin: 30px 0;
+opacity: 0;
+transform: translateX(360px);
+transition: 0.6s all ease-in-out;
+}
+
+
+.list-two{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    opacity: 0;
+    transform: translateX(-360px);
+    transition: 0.6s all ease-in-out;
+    }
+    
+    
+
+.box-list-one{
+width: 45%;
+}
+
+.box-list-one h2{
+    padding: 20px 20px 40px 0;
+    color: #1f2749!important;
+}
+
+.box-list-one p{
+    line-height: 1.5rem;
+}
+
+.icon{
+    font-size: 45px;
+    margin-left: -40px;
+    padding: 15px 5px 0 -10px;
+}

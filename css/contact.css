@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb{
+    margin-bottom: 10%;
+}
+.contact{
+    background-image: url(/img/faq\ 1.jpg);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.contact-us{
+    padding: 20px 20px 0px 150px;
+
+}
+
+.contact-us p{
+    max-width: 50%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+.contact-us-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 20px 40px 0px;
+}
+.contact-us-title h2{
+    color: #f12639!important; 
+}
+
+.contact-us-title h1{
+    color: #1f2749!important;
+}
+
+
+/* Map */
+.map{
+    width: 100%;
+    height: 92vh;
+    background-color: rgb(247, 236, 236);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.map-right{
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+
+.more{
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+}
+
+.more-content{
+    display: flex;
+    justify-content: space-between;
+}
+.more-one{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 33%;
+    height: 70vh;
+    margin: 0 20px;
+}
+
+.more-one img{
+    width: 100%;
+    height: 50%;
+}
+
+.more-one h2{
+    font-size: 15px;
+    padding: 20px 0px 20px 0;
+    color: rgb(43, 41, 41);
+    
+}
+
+.more-one p{
+    font-size: 16px;
+    padding: 10px 10px 10px 0;
+    line-height: 1.5rem;
+    color: rgb(82, 76, 76);
+}
+
+.more-one span{
+    position: absolute;
+    right: 5%;
+}
+
+.more-one span a{
+    font-size: 16px;
+    color: #f12639!important;
+}
+
+
+/* Office*/
+.office{
+    position: relative;
+    background-image: url(/img/contact\ 4.jpg);
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.office-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.office-content p{
+    padding: 30px 100px;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+.office-content button{
+    background-color:#f12639!important ;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+}
