@@ -179,3 +179,22 @@ window.addEventListener('scroll', ()=>{
 })
 
 
+
+// scroll to top
+let btn = document.getElementById("btn-scroll");
+
+window.onscroll = function(){
+    if(window.scrollY >= 600){
+        btn.style.display = "block"
+    }else{
+        btn.style.display = "none"
+    }
+};
+
+btn.addEventListener("click", function(){
+    window.scrollTo({
+        top : 0,
+        left :0,
+        behavior : "smooth"
+    })
+})

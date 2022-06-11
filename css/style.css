@@ -10,6 +10,20 @@ box-sizing: border-box;
     transform: translateX(0px);
 }
 
+#btn-scroll{
+        position: fixed;
+        right: 5%;
+        top: 80%;
+        font-size: 35px;
+        color: #f12639;
+        display: none;
+        z-index: 50;
+        transition: .4s;
+}
+
+#btn-scroll:hover{
+    color: #1f2749;
+}
 #preloader{
     background:  url(https://i.pinimg.com/originals/df/d2/68/dfd2683c9701642c776e31d3b0d603a9.gif) center center no-repeat;
     background-color: #fff;
